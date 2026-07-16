@@ -15,3 +15,5 @@ venv/
 # OS
 .DS_Store
 Thumbs.db
+resumes/
+evaluation_report.csv

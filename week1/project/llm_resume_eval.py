@@ -17,24 +17,41 @@ client = Groq(api_key=my_api_key)
 model = "llama-3.3-70b-versatile"
 
 job_description = """
-Executive - Python
-Mumbai, Maharashtra, India
-Trending
-Job Description
-About KPMG in India
+Why it’s worth it:
 
-KPMG entities in India are professional services firm(s). These Indian member firms are affiliated with KPMG International Limited. KPMG was established in India in August 1993. Our professionals leverage the global network of firms, and are conversant with local laws, regulations, markets and competition. KPMG has offices across India in Ahmedabad, Bengaluru, Chandigarh, Chennai, Gurugram, Jaipur, Hyderabad, Jaipur, Kochi, Kolkata, Mumbai, Noida, Pune, Vadodara and Vijayawada. 
+Are you a passionate Software Engineer who has a proven track record of solving complex problems and being at the forefront of innovation? Pursuing a career at ReliaQuest will allow you to write code and manipulate data in ways that have never been done before, driving automation of threat detection and response for one of the world’s fastest growing industries. You will lead the creation, testing, and deployment of cutting-edge security technology to enterprise customers across the globe. Above all else, this role will allow you to work and learn from some of the most talented people in the business as well as have a direct contribution to the growth and success of RQ.
 
-KPMG entities in India offer services to national and international clients in India across sectors. We strive to provide rapid, performance-based, industry-focused and technology-enabled services, which reflect a shared knowledge of global and local industries and our experience of the Indian business environment.
+The everyday hustle:
 
-Full stack developer
-Equal employment opportunity information 
+Research and develop creative solutions across a wide range of cutting-edge technologies to continuously evolve our platform, GreyMatter.
 
+Create REST API’s and integrations between various products to improve and automate our customer’s threat detection.
 
-KPMG India has a policy of providing equal opportunity for all applicants and employees regardless of their color, caste, religion, age, sex/gender, national origin, citizenship, sexual orientation, gender identity or expression, disability or other legally protected status. KPMG India values diversity and we request you to submit the details below to support us in our endeavor for diversity. Providing the below information is voluntary and refusal to submit such information will not be prejudicial to you.
-Qualifications
-Any Engineering
+Manage the continuous integration and deployment processes of complex technologies.
 
+Perform code reviews to ensure consistent improvement.
+
+Proactively automate and improve all stages of the software development lifecycle.
+
+Interface closely with various parts of the business, both internally and externally, to ensure all users are leveraging the product with ease and to its full potential.
+
+Provide support to other team members as well as cultivate a culture of constant collaboration.
+
+Do you have what it takes?
+
+0-1 Years of Software Development experience in the following: Java, Spring Boot, and developing in a microservices architecture.
+
+What makes you uncommon?
+
+Hands on experience with one or more of the following technologies (Elasticsearch, Kafka, Apache Spark, Logstash, Hadoop/hive, Tensorflow, Kibana, Athena/Presto/BigTable, Angular, React).
+
+Experience with cloud platforms such as AWS, GCP, or Azure.
+
+Solid understanding of unit testing, continuous integration and deployment practices.
+
+Experience with Agile Methodology.
+
+Higher education/relevant certifications.
 """
 
 class JobD(BaseModel):

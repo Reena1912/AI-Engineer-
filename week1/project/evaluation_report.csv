@@ -1,3 +1,4 @@
 Rank,Candidate Name,Match Score (%),Matching Skills,Missing Important Skills,Experience Requirements Met,Final Verdict
-1,K. Reena,90.0%,Python,,True,
-2,Priyanshu Singh,40.0%,,Python,True,
+1,K. Reena,20.0%,"REST APIs, Database design principles","Java, Spring Boot, Microservices architecture",False,
+2,K. Reena,20.0%,"REST APIs, SQL, Git, GitHub, GitHub Actions (CI/CD)","Java, Spring Boot, Microservices architecture",False,
+3,K. Reena,20.0%,"REST APIs, Cloud platforms (AWS)","Java, Spring Boot, Microservices architecture",False,
