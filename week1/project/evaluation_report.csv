@@ -1,4 +1,5 @@
 Rank,Candidate Name,Match Score (%),Matching Skills,Missing Important Skills,Experience Requirements Met,Final Verdict
-1,K. Reena,20.0%,"REST APIs, Database design principles","Java, Spring Boot, Microservices architecture",False,
-2,K. Reena,20.0%,"REST APIs, SQL, Git, GitHub, GitHub Actions (CI/CD)","Java, Spring Boot, Microservices architecture",False,
-3,K. Reena,20.0%,"REST APIs, Cloud platforms (AWS)","Java, Spring Boot, Microservices architecture",False,
+1,K. Reena,75.0%,"Python, REST APIs, Object-Oriented Programming (OOP), Git","Computer Science concepts, Web services, Client-server architecture, Databases, Data structures, Algorithms",False,
+2,K. Reena,72.0%,"Python, REST APIs, Database design principles, Git, SQL, Data structures, Algorithms","Web services, Client-server architecture, Object-oriented programming, Web applications development, Back-end services development, APIs development",False,
+3,K. Reena,70.0%,"Python, REST APIs, Git, Database design principles","Computer Science concepts, Programming principles, Web services, Client-server architecture",False,
+4,K. Reena,70.0%,"Python, REST APIs, Object-Oriented Programming (OOP), Data Structures & Algorithms, Git, AWS EC2","Computer Science concepts, Client-server architecture, Databases, Algorithms, Web services",False,

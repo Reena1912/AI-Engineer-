@@ -17,41 +17,60 @@ client = Groq(api_key=my_api_key)
 model = "llama-3.3-70b-versatile"
 
 job_description = """
-Why it’s worth it:
+Job Requisition ID #
 
-Are you a passionate Software Engineer who has a proven track record of solving complex problems and being at the forefront of innovation? Pursuing a career at ReliaQuest will allow you to write code and manipulate data in ways that have never been done before, driving automation of threat detection and response for one of the world’s fastest growing industries. You will lead the creation, testing, and deployment of cutting-edge security technology to enterprise customers across the globe. Above all else, this role will allow you to work and learn from some of the most talented people in the business as well as have a direct contribution to the growth and success of RQ.
+26WD99919
+Position Overview
 
-The everyday hustle:
+Autodesk's Identity and Access Management team is seeking a talented and highly motivated Software Engineer who enjoys learning, solving complex problems, and building reliable software solutions.
 
-Research and develop creative solutions across a wide range of cutting-edge technologies to continuously evolve our platform, GreyMatter.
+As a member of the team responsible for foundational identity services, you will contribute to Autodesk's Identity and Access Management platform, which supports millions of Autodesk customers and powers more than 150 Autodesk desktop, mobile, and web applications, cloud services, and third-party developer integrations.
 
-Create REST API’s and integrations between various products to improve and automate our customer’s threat detection.
+This is an excellent opportunity for an early-career engineer to work with modern cloud technologies, collaborate with experienced engineers, and gain hands-on experience building scalable, secure, and reliable services that are critical to Autodesk's products and customers.
 
-Manage the continuous integration and deployment processes of complex technologies.
+Responsibilities
 
-Perform code reviews to ensure consistent improvement.
+Work as a member of a self-organized Agile team that builds, owns, and operates cloud services
+Contribute to the development of cloud services, including back-end, front-end, DevOps, and quality engineering activities
+Support service operations, including monitoring, alerting, logging, metrics, and troubleshooting
+Collaborate closely with senior engineers, architects, and product owners to understand requirements and implement effective solutions
+Write clean, maintainable, and well-tested code under the guidance of experienced team members
+Participate in code reviews, design discussions, sprint planning, and other Agile ceremonies
+Learn and apply engineering best practices for scalability, reliability, usability, performance, and security
+Support the continuous improvement of existing systems by identifying issues and recommending enhancements
+Minimum Qualifications
 
-Proactively automate and improve all stages of the software development lifecycle.
+Bachelor's degree or equivalent experience in Computer Science, Software Engineering, or a related technical field
+0–1 year of software engineering experience, including internships, academic projects, or professional experience
+Good understanding of fundamental computer science concepts and programming principles
+Hands-on experience with at least one programming language, such as C#, Go, Java, or Python
+Familiarity with web services, Representational State Transfer (REST) Application Programming Interfaces (APIs), and client-server architecture
+Basic understanding of databases, data structures, algorithms, and object-oriented programming
+Willingness to learn cloud technologies, DevOps practices, and production service operations
+Strong problem-solving, communication, and collaboration skills
+Preferred Qualifications
 
-Interface closely with various parts of the business, both internally and externally, to ensure all users are leveraging the product with ease and to its full potential.
+Internship, academic, or project experience developing web applications, back-end services, or Application Programming Interfaces (APIs)
+Basic exposure to cloud platforms such as Amazon Web Services (AWS), Microsoft Azure, or Google Cloud Platform (GCP)
+Familiarity with Git, Continuous Integration and Continuous Deployment (CI/CD) pipelines, unit testing, and debugging tools
+Exposure to authentication, authorization, identity and access management, or application security concepts
+Ability to learn quickly and contribute effectively in a collaborative engineering environment
+The Ideal Candidate
 
-Provide support to other team members as well as cultivate a culture of constant collaboration.
+The ideal candidate is an enthusiastic early-career software engineer who is passionate about learning, solving technical challenges, and building reliable software that delivers value to customers
 
-Do you have what it takes?
+Demonstrates a strong foundation in computer science principles and software engineering fundamentals
+Enjoys solving technical problems through logical thinking, curiosity, and analytical reasoning
+Takes ownership of assigned work while actively seeking opportunities to learn and grow
+Writes clean, maintainable, and high-quality code while embracing engineering best practices
+Collaborates effectively with engineers, product managers, architects, and other cross-functional partners
+Welcomes feedback and applies it to continuously improve technical and professional skills
+Demonstrates a willingness to learn new technologies, cloud platforms, and modern software development practices
+Approaches challenges with a growth mindset and adapts quickly in a fast-paced engineering environment
+Communicates technical ideas clearly and works effectively within a collaborative team
+Builds strong relationships with teammates and contributes positively to the team's culture and success
+Demonstrates attention to detail while understanding how individual contributions support broader product and business goals
 
-0-1 Years of Software Development experience in the following: Java, Spring Boot, and developing in a microservices architecture.
-
-What makes you uncommon?
-
-Hands on experience with one or more of the following technologies (Elasticsearch, Kafka, Apache Spark, Logstash, Hadoop/hive, Tensorflow, Kibana, Athena/Presto/BigTable, Angular, React).
-
-Experience with cloud platforms such as AWS, GCP, or Azure.
-
-Solid understanding of unit testing, continuous integration and deployment practices.
-
-Experience with Agile Methodology.
-
-Higher education/relevant certifications.
 """
 
 class JobD(BaseModel):
